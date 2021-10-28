@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/jensengbg-michele-carmagnani/crypto-market/static/css/main.730da8da.chunk.css",
+    "main.js": "/jensengbg-michele-carmagnani/crypto-market/static/js/main.d9d77458.chunk.js",
+    "main.js.map": "/jensengbg-michele-carmagnani/crypto-market/static/js/main.d9d77458.chunk.js.map",
+    "runtime-main.js": "/jensengbg-michele-carmagnani/crypto-market/static/js/runtime-main.9d08a15f.js",
+    "runtime-main.js.map": "/jensengbg-michele-carmagnani/crypto-market/static/js/runtime-main.9d08a15f.js.map",
+    "static/js/2.0bf5530b.chunk.js": "/jensengbg-michele-carmagnani/crypto-market/static/js/2.0bf5530b.chunk.js",
+    "static/js/2.0bf5530b.chunk.js.map": "/jensengbg-michele-carmagnani/crypto-market/static/js/2.0bf5530b.chunk.js.map",
+    "index.html": "/jensengbg-michele-carmagnani/crypto-market/index.html",
+    "static/css/main.730da8da.chunk.css.map": "/jensengbg-michele-carmagnani/crypto-market/static/css/main.730da8da.chunk.css.map",
+    "static/js/2.0bf5530b.chunk.js.LICENSE.txt": "/jensengbg-michele-carmagnani/crypto-market/static/js/2.0bf5530b.chunk.js.LICENSE.txt",
+    "static/media/MainNavigation.module.css": "/jensengbg-michele-carmagnani/crypto-market/static/media/logo.ce1d52b8.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9d08a15f.js",
+    "static/js/2.0bf5530b.chunk.js",
+    "static/css/main.730da8da.chunk.css",
+    "static/js/main.d9d77458.chunk.js"
+  ]
+}
