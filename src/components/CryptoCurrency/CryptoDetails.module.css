@@ -1,0 +1,105 @@
+h4, p {
+  margin: 0;
+  padding: 0;
+  margin: 0 10px;
+  text-transform: capitalize;
+  color:#a9abb1;
+  transition:cubic-bezier(0.075, 0.82, 0.165, 1)
+}
+
+
+.CryptoDetails {
+  position: fixed;
+  bottom: -50vh;
+  margin: auto 0;
+   background: rgb(2, 0, 36);
+  background: linear-gradient(
+    180deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 57%,
+    rgba(2, 47, 56, 1) 100%
+  );
+  width: 100%;
+  height: 50vh;
+  border-radius: 2rem 2rem 0 0;
+  border: 1px solid gray;
+  transition: all 0.3s ease-out;
+  cursor: pointer;
+}
+
+
+.CryptoDetails div {
+  position: relative;
+  padding: 0.5rem 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.CryptoDetails article {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+   flex-direction: column;
+}
+.CryptoDetails article p:nth-child(2) {
+  align-self: flex-start;
+  font-size:25px;
+  margin-left: 1rem;
+}
+
+img {
+  width: 30px;
+  height: 30px;
+}
+
+.CryptoDetails span {
+  
+  position: absolute;
+  right: 10px;
+  top: 2px;
+}
+.CloseCircle {
+  color: rgb(121, 121, 121);
+  font-size: 25px;
+}
+.CloseCircle:hover{
+  color:#ffffff;
+}
+
+.OpenDetails {
+  animation: openDetails 2s ease-out forwards;
+}
+.CloseDetails {
+  animation: openDetails 2s ease-out;
+}
+
+@keyframes openDetails {
+  0% {
+    opacity: 0;
+    transform: translateY(0vh);
+  }
+  50% {
+    opacity: 1;
+    transform: translateY(-20vh);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(-50vh);
+  }
+}
+@keyframes closeDetails {
+  100% {
+    opacity: 1;
+    transform: translateY(0vh);
+  }
+  50% {
+    opacity: 1;
+    transform: translateY(-20vh);
+  }
+  0% {
+    opacity: 0;
+    transform: translateY(-50vh);
+  }
+}
