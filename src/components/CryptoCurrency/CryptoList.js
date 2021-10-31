@@ -19,7 +19,7 @@ const CryptoList = () => {
   const dispatch = useDispatch();
 
   let markets = useSelector((state) => state.markets.markets);
-
+ console.log(markets)
   const showDetailsHandler = (id) => {
     dispatch(marketAction.setDetails(id));
   };
